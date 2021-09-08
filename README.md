@@ -21,8 +21,12 @@ debian:mariadb
 ```
 
 
-### Getting started
-We need to enable the root password and other configurations. That can be done in a easy way with:
+### ✈️  Getting started
+1. We need to enable the root password and other configurations. That can be done in a easy way with:
 ```
 mysql_secure_installation
 ```
+2. Run mycli
+```
+mycli -u root
+``` 
