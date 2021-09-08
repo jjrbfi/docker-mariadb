@@ -7,8 +7,8 @@ docker build . debian:mariadb
 ```
 
 ### 📦 Create the container from the image
-With this image we are sharing our X11 to get graphics from the container.
-We will get back a Terminator windows directly from that container.
+- With this image we are sharing our X11 to get graphics from the container.
+- We will get back a Terminator windows directly from that container.
 
 ```
 docker run -it --privileged --net=host --ipc=host \
