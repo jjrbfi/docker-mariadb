@@ -99,5 +99,8 @@ else
     DOCKER_USER_NAME="root"
 fi
 
+# Start MariaDB service
+service mariadb start
+
 # Run CMD from Docker
 "$@"
