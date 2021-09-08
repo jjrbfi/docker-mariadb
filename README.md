@@ -1,12 +1,12 @@
-# Docker image with MariaDB for testing purposues
+🐋 Docker image with MariaDB for testing purposues
 
 
-# Install from Docker file
+### 🛠 Install from Docker file
 ```
 docker build . debian:mariadb
 ```
 
-# Create the container from the image
+### 📦 Create the container from the image
 With this image we are sharing our X11 to get graphics from the container.
 We will get back a Terminator windows directly from that container.
 
