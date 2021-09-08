@@ -19,4 +19,3 @@ docker run -it --privileged --net=host --ipc=host \
 -e XAUTHORITY=/home/$(id -un)/.Xauthority \
 debian:mariadb
 ```
-

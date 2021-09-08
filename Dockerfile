@@ -52,7 +52,7 @@ COPY assets/terminator_config /root/.config/terminator/config
 COPY assets/vim_config /root/.vimrc 
 
 # Start MariaDB service
-service mariadb start
+RUN service mariadb start
 
 # Entry script - This will also run terminator
 COPY assets/entrypoint_setup.sh /
