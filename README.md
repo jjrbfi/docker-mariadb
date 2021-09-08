@@ -19,3 +19,10 @@ docker run -it --privileged --net=host --ipc=host \
 -e XAUTHORITY=/home/$(id -un)/.Xauthority \
 debian:mariadb
 ```
+
+
+### Getting started
+We need to enable the root password and other configurations. That can be done in a easy way with:
+```
+mysql_secure_installation
+```
