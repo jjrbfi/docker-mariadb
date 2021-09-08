@@ -27,9 +27,13 @@ libssl-dev \
 build-essential \
 dbus-x11 \
 mariadb-server \
+python3-pip \
 software-properties-common \
 gdb valgrind && \
 apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Install mycli
+RUN pip3 install mycli
 
 
 # Locale
